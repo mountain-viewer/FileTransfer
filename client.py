@@ -36,7 +36,6 @@ class Client:
 
     def send_file_chunks(self):
         threads = [None] * self.n_threads
-        print(threads)
 
         chunk_size = os.path.getsize(self.path) // self.n_threads + 1
 
