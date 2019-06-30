@@ -1,0 +1,4 @@
+BASIC_PORT = 2406
+FILE_PORT = 1998
+
+MSG_SEPARATOR = "##########"
